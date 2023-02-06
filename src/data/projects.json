@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "title": "Best YouTube channels",
+        "description": "My latest project featuring the best YouTube channels",
+        "link_prod": "https://ikamen.github.io/best_youtube_channels/",
+        "link_github": "https://github.com/ikamen/best_youtube_channels",
+        "media": "../assets/youtubeproject.png"
+    },
+    {
+        "id": "2",
+        "title": "CSS refactoring",
+        "description": "My project on refactoring CSS",
+        "link_prod": "https://ikamen.github.io/week1_challenge/",
+        "link_github": "https://github.com/ikamen/week1_challenge",
+        "media": "../assets/cssrefactoring.png"
+    },
+    {
+        "id": "3",
+        "title": "Prep project",
+        "description": "My project on preparing for the dev course",
+        "link_prod": "https://ikamen.github.io/dev_course_prework_test/",
+        "link_github": "https://github.com/ikamen/dev_course_prework_test",
+        "media": "../assets/prep.png"
+    }
+    {
+        "id": "4",
+        "title": "Password generator",
+        "description": "My project on creating a password generator",
+        "link_prod": "https://ikamen.github.io/password-generator/",
+        "link_github": "https://github.com/ikamen/password-generator",
+        "media": "../assets/password.png"
+    }
+    {
+        "id": "5",
+        "title": "Roblox quiz",
+        "description": "My project to create a quiz",
+        "link_prod": "https://ikamen.github.io/code-quiz/",
+        "link_github": "https://github.com/ikamen/code-quiz/settings/pages",
+        "media": "../assets/quiz.png"
+    }
+    {
+        "id": "6",
+        "title": "Weather project",
+        "description": "My project to create a weather app",
+        "link_prod": "https://ikamen.github.io/weather/",
+        "link_github": "https://github.com/ikamen/weather",
+        "media": "../assets/weather.png"
+    }    
+
+
+]
