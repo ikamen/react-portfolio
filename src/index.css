@@ -1,3 +1,12 @@
+:root {
+  --primary-colour:	#56e39f;
+  --secondary-colour: #465775;
+  --third-colour: #59C9A5;
+  --fourth-colour: #EF6F6C;
+  --primary-colour-opacity: rgba(86, 227, 159, 0.5);
+  --third-colour-opacity: rgba(89, 201, 165, 0.5);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -29,18 +38,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--secondary-colour);
+  color: var(--primary-colour);  
 }
 
-header {
-  background: #777;
-  padding: 0 3%;
-}
-
-header h3 {
-  color: #fff;
-}
-
-header nav button {
+header nav a {
   background: none;
   border: none;
   color: #fff;
@@ -50,4 +54,57 @@ header nav button {
 
 header nav a.active {
   text-decoration: underline;
+}
+
+.hero-banner{
+  background-image: url("./assets/pexels-scott-webb-1029624.jpg");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  color: var(--secondary-colour);
+}
+
+.hero-banner h2 {
+  margin-top: 100px;
+  margin-right: 200px;
+}
+
+/* About section styling */
+.about {
+  display: grid;
+  grid-template-columns: 20% 15% 65%;
+  align-items: center;
+  margin: 20px;
+  color: var(--fourth-colour);
+  font-size: large;
+}
+
+/* Contact section styling */
+.contact {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-areas: 
+  "label-gr tel-gr" 
+  "label-gr email-gr";
+  align-items: center;
+  margin: 20px;
+  color: var(--fourth-colour);
+}
+
+.contact a {
+  color: var(--fourth-colour);
+  font-size: large;
+}
+
+#contact-label {
+  grid-area: label-gr;
+}
+
+#contact-tel {
+  grid-area: tel-gr
+}
+
+#contact-email {
+  grid-area: email-gr;
 }
