@@ -108,3 +108,17 @@ header nav a.active {
 #contact-email {
   grid-area: email-gr;
 }
+
+.project-card {
+  padding: 10px;
+  color: var(--darkblue);
+  background-color: var(--third-colour);
+  border-radius: 5px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  margin-top: 15px;
+}
