@@ -86,7 +86,9 @@ header nav a.active {
   grid-template-columns: 20% 80%;
   grid-template-areas: 
   "label-gr tel-gr" 
-  "label-gr email-gr";
+  "label-gr email-gr"
+  "label-gr gh-gr"
+  "label-gr cv-gr";
   align-items: center;
   margin: 20px;
   color: var(--fourth-colour);
@@ -102,11 +104,44 @@ header nav a.active {
 }
 
 #contact-tel {
-  grid-area: tel-gr
+  grid-area: tel-gr;
+  padding-bottom: 5px;
 }
 
 #contact-email {
   grid-area: email-gr;
+  padding-bottom: 5px;
+}
+
+#contact-gh {
+  grid-area: gh-gr;
+  padding-bottom: 5px;
+}
+
+#contact-cv {
+  grid-area: cv-gr;
+  padding-bottom: 5px;
+}
+
+form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: var(--fourth-colour);
+}
+
+form > * {
+  padding: 5px 5px;
+  margin-bottom: 5px;
+}
+
+form input {
+  margin-left: 5px;
+}
+
+form textarea {
+  margin-left: 5px;
 }
 
 .project-label {
@@ -130,6 +165,8 @@ header nav a.active {
   gap: 15px;
   margin: 15px;
 }
+
+
 
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
