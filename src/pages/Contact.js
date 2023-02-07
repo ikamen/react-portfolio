@@ -4,8 +4,8 @@ import Pdf from '../assets/cv.pdf';
 function Contact() {
 
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
+    firstname: '',
+    lastname: '',
     email: '',
     message: ''
   })
