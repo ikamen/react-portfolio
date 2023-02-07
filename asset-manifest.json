@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.1c67f4b1.css",
-    "main.js": "/react-portfolio/static/js/main.459d6f11.js",
+    "main.css": "/react-portfolio/static/css/main.53dd6eeb.css",
+    "main.js": "/react-portfolio/static/js/main.adaceae8.js",
     "static/media/cssrefactoring.png": "/react-portfolio/static/media/cssrefactoring.9fde88232062af6007e1.png",
     "static/media/pexels-scott-webb-1029624.jpg": "/react-portfolio/static/media/pexels-scott-webb-1029624.67b6599c606350576d82.jpg",
     "static/media/avatar.png": "/react-portfolio/static/media/avatar.405698188901f2cf6946.png",
@@ -11,11 +11,11 @@
     "static/media/password.png": "/react-portfolio/static/media/password.25ba9a26dc282d649cbe.png",
     "static/media/quiz.png": "/react-portfolio/static/media/quiz.72c1a138f937ce43349c.png",
     "index.html": "/react-portfolio/index.html",
-    "main.1c67f4b1.css.map": "/react-portfolio/static/css/main.1c67f4b1.css.map",
-    "main.459d6f11.js.map": "/react-portfolio/static/js/main.459d6f11.js.map"
+    "main.53dd6eeb.css.map": "/react-portfolio/static/css/main.53dd6eeb.css.map",
+    "main.adaceae8.js.map": "/react-portfolio/static/js/main.adaceae8.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c67f4b1.css",
-    "static/js/main.459d6f11.js"
+    "static/css/main.53dd6eeb.css",
+    "static/js/main.adaceae8.js"
   ]
 }
