@@ -1,5 +1,4 @@
 function Contact() {
-  console.log("contacts page")
     return (
       <div>
         <section className = "contact">
@@ -8,20 +7,25 @@ function Contact() {
           <a href="mailto:kamen.web.dev@gmail.com" id="contact-email">kamen.web.dev@gmail.com</a>
         </section>
         
-        {/* <form>
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
-    
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
-    
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    
-        <input type="submit" value="Submit"></input>
+        <form>
+          <label>
+            First Name
+            <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
+          </label>
+          
+          <label>
+            Last Name
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
+          </label>
+          
+          <label>
+            Subject
+            <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+          </label>
+          
+          <input type="submit" value="Submit"></input>
 
-    
-        </form> */}
+        </form>
       </div>
     )
   }

@@ -109,16 +109,31 @@ header nav a.active {
   grid-area: email-gr;
 }
 
+.project-label {
+  color: var(--secondary-colour);
+  text-align: center;
+}
+
 .project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
   padding: 10px;
-  color: var(--darkblue);
+  color: var(--secondary-colour);
   background-color: var(--third-colour);
   border-radius: 5px;
 }
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 15px;
-  margin-top: 15px;
+  margin: 15px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: repeat(2,1fr);
+  }
 }
