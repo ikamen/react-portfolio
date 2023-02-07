@@ -1,4 +1,5 @@
 function Contact() {
+  console.log("contacts page")
     return (
       <div>
         <section className = "contact">

@@ -1,8 +1,20 @@
+import projectsData from "../data/projects.json";
+import Project from '../components/Project';
+
 function Projects() {
+  console.log("projects page")
     return (
       <>
         <h1>Projects</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, qui veniam, quas, possimus nulla cumque corporis fugit impedit dolor quibusdam suscipit? Id doloremque mollitia aliquid, molestiae magnam quae? Libero, dicta?</p>
+        <div className = "projects">
+          {projectsData.map( (prObj, index) => {
+            console.log("index: " + index);
+            return (
+              <Project prObj={prObj} index={index} />
+            )
+
+          })}
+        </div>
       </>
     )
   }
