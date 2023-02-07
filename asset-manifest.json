@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.53dd6eeb.css",
-    "main.js": "/react-portfolio/static/js/main.adaceae8.js",
+    "main.css": "/react-portfolio/static/css/main.bcfca47f.css",
+    "main.js": "/react-portfolio/static/js/main.02422e65.js",
     "static/media/cssrefactoring.png": "/react-portfolio/static/media/cssrefactoring.9fde88232062af6007e1.png",
     "static/media/pexels-scott-webb-1029624.jpg": "/react-portfolio/static/media/pexels-scott-webb-1029624.67b6599c606350576d82.jpg",
+    "static/media/cv.pdf": "/react-portfolio/static/media/cv.be745864be0e89925387.pdf",
     "static/media/avatar.png": "/react-portfolio/static/media/avatar.405698188901f2cf6946.png",
     "static/media/youtubeproject.png": "/react-portfolio/static/media/youtubeproject.36f57b4e4bf89d4e72ab.png",
     "static/media/prep.png": "/react-portfolio/static/media/prep.81ffa2ea5f8347cc4a44.png",
@@ -11,11 +12,11 @@
     "static/media/password.png": "/react-portfolio/static/media/password.25ba9a26dc282d649cbe.png",
     "static/media/quiz.png": "/react-portfolio/static/media/quiz.72c1a138f937ce43349c.png",
     "index.html": "/react-portfolio/index.html",
-    "main.53dd6eeb.css.map": "/react-portfolio/static/css/main.53dd6eeb.css.map",
-    "main.adaceae8.js.map": "/react-portfolio/static/js/main.adaceae8.js.map"
+    "main.bcfca47f.css.map": "/react-portfolio/static/css/main.bcfca47f.css.map",
+    "main.02422e65.js.map": "/react-portfolio/static/js/main.02422e65.js.map"
   },
   "entrypoints": [
-    "static/css/main.53dd6eeb.css",
-    "static/js/main.adaceae8.js"
+    "static/css/main.bcfca47f.css",
+    "static/js/main.02422e65.js"
   ]
 }
